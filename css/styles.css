@@ -1,0 +1,17 @@
+header {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    width: 500px;
+}
+
+.gallery {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 20px;
+}
