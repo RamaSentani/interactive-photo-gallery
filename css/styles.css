@@ -6,12 +6,42 @@ header {
 }
 
 .search {
-    width: 500px;
+    width: 80%;
+    max-width: 500px;
+    border: none;
+    border-radius: 50px;
+    padding: 1em;
+    background-color: whitesmoke;
+    outline: none;
 }
 
 .gallery {
     display: grid;
     justify-content: center;
-    grid-template-columns: 200px 200px 200px 200px;
     gap: 20px;
 }
+
+@media (min-width:460px) {
+    .gallery {
+        grid-template-columns: 200px 200px;
+    }
+}
+
+@media (min-width:768px) {
+    .gallery {
+        grid-template-columns: 200px 200px 200px;
+    }
+}
+
+@media (min-width:1024px) {
+    .gallery {
+        grid-template-columns: 200px 200px 200px 200px;
+    }
+}
+
+/* .gallery {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 20px;
+} */
