@@ -15,10 +15,19 @@ header {
     outline: none;
 }
 
+.search:hover {
+    opacity: 80%;
+}
+
 .gallery {
     display: grid;
     justify-content: center;
     gap: 20px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: .2s;
 }
 
 @media (min-width:460px) {
